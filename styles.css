@@ -1,0 +1,85 @@
+header {
+    display: flex;
+    flex-wrap: wrap; /* Ensures content wraps on small screens */
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    z-index: 1000;
+    padding: 10px; /* Add padding to ensure content doesn't touch the edges */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+header h1 {
+    font-size: 20px; /* Reduce font size for better fit */
+    font-weight: bold;
+    color: #000;
+    margin: 0; /* Remove default margin */
+}
+
+header a {
+    color: #000;
+    margin: 0 5px; /* Add some spacing between links */
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 100vh;
+}
+
+body {
+    margin-left: 70px;
+    /* Ensures content does not overlap with the sidebar */
+    padding-top: 60px;
+}
+
+
+.project-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.project-content img {
+    width: 30%;
+    margin-right: 20px;
+    /* Adds some space between the image and the text */
+}
+
+.project-text {
+    width: 70%;
+}
+
+.project-text h1 {
+    font-style: italic;
+}
+
+.project {
+    padding: 20px;
+}
+
+.sidebar img {
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .project-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-content img {
+        width: 90%;
+        margin-right: 0;
+        margin-bottom: 20px; /* Adds space between the image and the text */
+    }
+
+    .project-text {
+        width: 100%;
+    }
+}
