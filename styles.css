@@ -6,7 +6,6 @@ header {
     position: fixed;
     top: 0;
     width: 80%;
-    z-index: 1; /* Set a positive z-index */
     padding: 10px;
     box-sizing: border-box;
 }
@@ -54,7 +53,6 @@ body {
 .project-content {
     display: block; /* Change from flex to block */
     text-align: center; /* Center align text */
-    z-index: 1000;
     position: relative;
 }
 
@@ -140,11 +138,12 @@ footer {
 }
 
 .enlarged {
-    width: 80vw; /* Set width to 80% of the viewport width */
-    height: auto; /* Maintain aspect ratio */
+    height: 90vh !important; /* Set height to 80% of the viewport height */
+    width: 90vw !important; /* Set width to 80% of the viewport width */
     position: fixed; /* Fix position to overlay on the page */
-    top: 10vh; /* Center vertically */
-    left: 10vw; /* Center horizontally */
-    z-index: 2000; /* Ensure it appears above other content */
+    top: 5vh !important; /* Center vertically */
+    left: calc(5vw + 10px) !important; /* Center horizontally */
+    z-index: 2001 !important; /* Ensure it appears above other content */
     transition: width 0s ease, height 0s ease; /* Smooth transition */
+    object-fit: contain; /* Maintain aspect ratio */
 }
