@@ -120,6 +120,27 @@ body {
     .project-text {
         width: 100%;
     }
+
+    header, footer {
+        flex-wrap: nowrap; /* Prevent wrapping */
+        justify-content: center; /* Center content */
+    }
+
+    header a, footer a {
+        margin: 0 5px; /* Reduce spacing between links */
+        white-space: nowrap; /* Prevent text from wrapping */
+        font-size: 12px; /* Reduce font size for smaller screens */
+    }
+
+    header div, footer div {
+        display: flex;
+        flex-direction: row; /* Align items in a row */
+        align-items: center;
+    }
+
+    header h1, footer h1 {
+        font-size: 12px; /* Reduce font size for headers */
+    }
 }
 
 footer {
@@ -146,4 +167,26 @@ footer {
     z-index: 2001 !important; /* Ensure it appears above other content */
     transition: width 0s ease, height 0s ease; /* Smooth transition */
     object-fit: contain; /* Maintain aspect ratio */
+}
+
+.h1-custom {
+    font-size: 24px;
+    color: #000000;
+    font-family: 'Times New Roman', serif;
+}
+
+.h1-custom-footer {
+    font-size: 24px;
+    color: #000000;
+    font-family: 'Times New Roman', serif;
+}
+
+@media (max-width: 600px) {
+    .h1-custom {
+        font-size: 18px; /* Smaller font size on mobile */
+    }
+    .h1-custom-footer {
+        font-size: 18px; /* Smaller font size on mobile */
+        display: none;
+    }
 }
