@@ -12,7 +12,7 @@ header {
 }
 
 header h1 {
-    font-size: 20px; /* Reduce font size for better fit */
+    font-size: x-large; /* Reduce font size for better fit */
     font-weight: bold;
     color: #000;
     margin: 0; /* Remove default margin */
@@ -27,7 +27,7 @@ header a {
     position: fixed;
     left: 0;
     top: 0;
-    width: 60px;
+    width: 10vw;
     height: 100vh;
 }
 
@@ -56,10 +56,12 @@ body {
 .project-text h1 {
     margin-top:0px;
     font-style: italic;
+    font-size: x-large;
 }
 
 .project-text p {
     margin-top:0px;
+    font-size: medium;
 }
 
 .project {

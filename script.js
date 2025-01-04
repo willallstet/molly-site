@@ -120,6 +120,18 @@ const projects = [
             { text: 'Documentation', url: 'https://www.instagram.com/p/CqYAgvTuqwu/?img_index=2' }
         ],
         image: 'photos/Screenshot 2025-01-04 at 10.53.36 AM.png'
+    },
+    {
+        id: 'roomMakeover',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png'
     }
 ];
 
