@@ -54,7 +54,12 @@ body {
 }
 
 .project-text h1 {
+    margin-top:0px;
     font-style: italic;
+}
+
+.project-text p {
+    margin-top:0px;
 }
 
 .project {

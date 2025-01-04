@@ -87,6 +87,39 @@ const projects = [
             { text: 'Blog post', url: 'https://mollysoda.substack.com/p/notes-on-cupid' }
         ],
         image: 'photos/Screenshot 2025-01-03 at 5.38.21 PM.png'
+    },
+    {
+        id: 'chickMagnet',
+        title: 'Chick Magnet',
+        year: '2022 - 2023',
+        description: 'Inkjet prints, custom magnets <br/>Vision board on refrigerator<br/>Dimensions variable<br/>Unique',
+        links: [
+            { text: 'Book', url: 'https://shop.heavymannerslibrary.com/products/molly-soda-chick-magnet-book' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/chick-magnet' },
+            { text: 'Press', url: 'https://i-d.co/article/molly-soda-interview-chick-magnet-photography' }
+        ],
+        image: 'photos/d06e7ae8-7f35-409b-b85b-b8a639cfe15b_1650x2550.jpg'
+    },
+    {
+        id: 'makingAnIcedCoffee',
+        title: 'Making an Iced Coffee',
+        year: '2023',
+        description: 'Video, 2 min 54 sec, TikTok Video, 2 min 54 sec, series of laser prints<br/>Dimensions variable<br/>Unique',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=0hpjwc0eeNQ&ab_channel=mollysoda' },
+            { text: 'TikTok', url: 'https://www.tiktok.com/@mollysodaofficial/video/7230866484283641130' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 10.44.12 AM.png'
+    },
+    {
+        id: 'girlsMirrorPicAestheticFlash',
+        title: 'girls mirror pic aesthetic flash',
+        year: '2023',
+        description: 'Prototype, transparent laser prints, mirror<br/>Collection of girls taking selfies with flash printed onto mirrored acrylic>br/>Dimensions variable',
+        links: [
+            { text: 'Documentation', url: 'https://www.instagram.com/p/CqYAgvTuqwu/?img_index=2' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 10.53.36 AM.png'
     }
 ];
 
@@ -103,6 +136,7 @@ function generateProjects() {
         icon.style.height = '50px'; // Set height for the icon
         icon.style.position = 'relative'; // Set position to relative for layering
         icon.id = `${project.id}ICON`;
+        icon.setAttribute('title', project.title); // Add tooltip with project title
         icon.addEventListener('click', () => scrollToElement(project.id));
         icon.addEventListener('mouseover', () => {
             icon.style.backgroundColor = 'transparent'; // Change to transparent on hover
