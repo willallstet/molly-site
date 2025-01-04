@@ -598,7 +598,15 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.style.paddingTop = headerHeight + 'px';
     }
 
-    window.addEventListener('resize', adjustBodyMargin);
+    function adjustSidebarHeight() {
+        const sidebar = document.querySelector('.sidebar');
+        const availableHeight = window.innerHeight;
+        sidebar.style.height = `${availableHeight}px`;
+    }
+
+    // Call the function on load and resize
+    window.addEventListener('load', adjustSidebarHeight);
+    window.addEventListener('resize', adjustSidebarHeight);
 
     // Initialize the page
     adjustBodyMargin();
