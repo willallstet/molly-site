@@ -115,14 +115,26 @@ const projects = [
         id: 'girlsMirrorPicAestheticFlash',
         title: 'girls mirror pic aesthetic flash',
         year: '2023',
-        description: 'Prototype, transparent laser prints, mirror<br/>Collection of girls taking selfies with flash printed onto mirrored acrylic>br/>Dimensions variable',
+        description: 'Prototype, transparent laser prints, mirror<br/>Collection of girls taking selfies with flash printed onto mirrored acrylic<br/>Dimensions variable',
         links: [
             { text: 'Documentation', url: 'https://www.instagram.com/p/CqYAgvTuqwu/?img_index=2' }
         ],
         image: 'photos/Screenshot 2025-01-04 at 10.53.36 AM.png'
     },
     {
-        id: 'roomMakeover',
+        id: 'tumblr',
+        title: 'Molly Soda Tumblr',
+        year: '2009 - ongoing',
+        description: 'Website, blog, multimedia files<br/>Unique',
+        links: [
+            { text: 'Website', url: 'https://mollysoda.tumblr.com/' },
+            { text: 'Rhizome', url: 'https://artbase.rhizome.org/wiki/Q15426' },
+            { text: 'Rhizome Presents: Some Tumblrs! (New Museum)', url: 'https://www.youtube.com/watch?v=2Y2Gy2zHbQE' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 1.00.19 PM.png',
+    },
+    {
+        id: 'roomMakeover1',
         title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
         year: '2023',
         description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
@@ -131,12 +143,384 @@ const projects = [
             { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
             { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
         ],
-        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png'
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover2',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover3',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover4',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover5',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover6',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover7',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover8',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover9',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover10',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover11',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover12',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover13',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover14',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover15',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover16',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover17',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover18',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover19',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover20',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover21',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover22',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover23',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover24',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover25',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover26',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover27',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover28',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover29',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover30',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover31',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
+    },
+    {
+        id: 'roomMakeover32',
+        title: 'ROOM MAKEOVER! *messy girl aesthetic inspired* girl clutter ♡',
+        year: '2023',
+        description: 'Video, 15 min 00 sec<br/>Edition of 3, 1AP',
+        links: [
+            { text: 'Video', url: 'https://www.youtube.com/watch?v=LpwvjpKrQJA&t=5s&ab_channel=mollysoda' },
+            { text: 'Blog post', url: 'https://mollysoda.substack.com/p/girl-clutter' },
+            { text: 'Press', url: 'https://www.nytimes.com/2023/03/08/style/clutter-messy-room-tiktok-instagram.html' }
+        ],
+        image: 'photos/Screenshot 2025-01-04 at 11.01.39 AM.png',
     }
 ];
 
 function generateProjects() {
-    const colors = ['#ff00b3', '#00b3ff', '#b300ff', '#ffb300', '#00ffb3', '#b3ff00', '#ff00b3', '#00b3ff', '#b300ff', '#ffb300', '#00ffb3', '#b3ff00'];
+    const colors = ['#ff2f9a', '#ce652e', '#cd6565', '#ffff04', '#b418d2', '#61c82b', '#0000fe', '#17174e', '#003201', '#174f7e', '#eab400', '#ffafaf', '#6b1746', '#ff00ff', '#016429', '#960100', '#98302e', '#0ebeb3', '#f92929', '#683133', '#ffff98', '#ffccff', '#ff6698', '#65ccfe', '#320100', '#99cc99', '#000034', '#ff9a66', '#b6c870', '#c0e0b3', '#d4a0d7', '#c3e7fe', '#e6d11c', '#e7d4bb', '#3485b7', '#d23ab8', '#ed3476', '#a75b2f', '#bf9ec5', '#575877', '#f55404', '#f08fc5', '#fce700', '#a092bd', '#5c4931', '#468263', '#5439f6', '#badefa', '#359ee1', '#b6926d', '#552d1c', '#ef5a40'];
     const projectsContainer = document.getElementById('projects');
     const sidebar = document.querySelector('.sidebar');
     let i = 0;
@@ -144,8 +528,8 @@ function generateProjects() {
     projects.forEach(project => {
         // Create sidebar icon
         const icon = document.createElement('div');
-        icon.style.width = '50px'; // Set width for the icon
-        icon.style.height = '50px'; // Set height for the icon
+        //icon.style.width = '20px'; // Set width for the icon
+        //icon.style.height = '20px'; // Set height for the icon
         icon.style.position = 'relative'; // Set position to relative for layering
         icon.id = `${project.id}ICON`;
         icon.setAttribute('title', project.title); // Add tooltip with project title
@@ -166,7 +550,10 @@ function generateProjects() {
         img.style.top = '0'; // Align image to the top
         img.style.left = '0'; // Align image to the left
         img.style.zIndex = '-1'; // Set z-index for the image
-
+        img.addEventListener('click', () => {
+            console.log('clicked');
+            img.classList.toggle('enlarged');
+        });
         icon.style.backgroundColor = colors[i]; // Set solid color for the icon
         project.color = colors[i]; // Use saved color
         i = (i + 1) % colors.length; // Cycle through colors
@@ -174,23 +561,28 @@ function generateProjects() {
         sidebar.appendChild(icon);
         icon.appendChild(img);
 
+        const maxSidebarHeight = window.innerHeight;
+        const iconCount = projects.length;
+        const iconSize = maxSidebarHeight / iconCount; // Calculate icon size
+        icon.style.setProperty('height', `${iconSize}px`);
+        icon.style.setProperty('width', `${iconSize}px`);
+
         // Create project section
         const projectDiv = document.createElement('div');
         projectDiv.className = 'project';
         projectDiv.id = project.id;
 
         const projectContent = `
-            <div class="project-content">
-                <img src="${project.image}" alt="${project.title}">
-                <div class="project-text">
-                    <h1>${project.title}</h1>
-                    <p>${project.year}<br/>
-                    ${project.description}<br/>
-                    ${project.links.map(link => `<a href="${link.url}">${link.text}</a><br/>`).join('')}
-                    </p>
-                </div>
-            </div>
-        `;
+    <div class="project-content">
+        <h1>${project.title}</h1>
+        <p>${project.year}</p>
+        <img src="${project.image}" alt="${project.title}">
+        <div class="project-text">
+            <p>${project.description}</p>
+            ${project.links.map(link => `<a href="${link.url}">${link.text}</a><br/>`).join('')}
+        </div>
+    </div>
+`;
         projectDiv.innerHTML = projectContent;
         projectsContainer.appendChild(projectDiv);
     });
