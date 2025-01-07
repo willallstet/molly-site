@@ -24,6 +24,8 @@ footer h1 {
     color: #000;
     margin: 0; /* Remove default margin */
     font-weight: 300;
+    text-decoration-color: #000000;
+    text-decoration: underline;
 }
 
 header a {
@@ -154,6 +156,7 @@ footer {
     padding: 10px;
     box-sizing: border-box;
     background-color: #ffffff00; /* Optional: Set a background color */
+    text-decoration-color: #000000;
     z-index: 1001;
     font-family: 'Times New Roman', serif;
 }
