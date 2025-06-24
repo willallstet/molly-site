@@ -5,7 +5,8 @@ header {
     align-items: flex-start; /* Align items to the top */
     position: fixed;
     top: 0;
-    width: 80%;
+    left: 70px; /* Account for sidebar space */
+    width: calc(80% - 70px); /* Adjust width to account for left offset */
     padding: 10px;
     box-sizing: border-box;
 }
@@ -127,6 +128,11 @@ body {
     header, footer {
         flex-wrap: nowrap; /* Prevent wrapping */
         justify-content: center; /* Center content */
+    }
+    
+    header {
+        left: 20px; /* Adjust for smaller sidebar on mobile */
+        width: calc(100% - 40px); /* Full width minus margins */
     }
 
     header a, footer a {
